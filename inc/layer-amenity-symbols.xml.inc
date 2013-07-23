@@ -3,33 +3,33 @@
       &maxscale_zoom16;
       <Filter>[aeroway]='helipad'</Filter>
       <PointSymbolizer file="&symbols;/helipad.p.16.png"/>
-      <TextSymbolizer size="8" fill="#6692da" dy="-10" fontset-name="bold-fonts" halo-radius="1" wrap-width="0" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="8" fill="#6692da" dy="-10" fontset-name="bold-fonts" halo-radius="2" wrap-width="0" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       &maxscale_zoom9;
       &minscale_zoom10;
       <Filter>[aeroway]='airport'</Filter>
       <PointSymbolizer file="&symbols;/airport.p.16.png"/>
-      <TextSymbolizer size="8" fill="#6692da" dy="-12" fontset-name="bold-fonts" halo-radius="1" wrap-width="0" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="8" fill="#6692da" dy="-12" fontset-name="bold-fonts" halo-radius="2" wrap-width="0" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       &maxscale_zoom11;
       &minscale_zoom12;
       <Filter>[aeroway]='airport'</Filter>
-      <TextSymbolizer size="9" fill="#6692da" fontset-name="bold-fonts" halo-radius="1" wrap-width="0" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#6692da" fontset-name="bold-fonts" halo-radius="2" wrap-width="0" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       &maxscale_zoom10;
       &minscale_zoom10;
       <Filter>[aeroway]='aerodrome'</Filter>
       <PointSymbolizer file="&symbols;/aerodrome.p.16.png"/>
-      <TextSymbolizer size="8" fill="#6692da" dy="-12" fontset-name="oblique-fonts" halo-radius="1" wrap-width="0" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="8" fill="#6692da" dy="-12" fontset-name="oblique-fonts" halo-radius="2" wrap-width="0" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       &maxscale_zoom11;
       &minscale_zoom12;
       <Filter>[aeroway]='aerodrome'</Filter>
-      <TextSymbolizer size="8" fill="#6692da" fontset-name="oblique-fonts" halo-radius="1" wrap-width="0" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="8" fill="#6692da" fontset-name="oblique-fonts" halo-radius="2" wrap-width="0" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       &maxscale_zoom14;

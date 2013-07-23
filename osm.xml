@@ -211,40 +211,40 @@
     <Rule>
       <Filter>[way_area] &gt;= 150000</Filter>
       &maxscale_zoom14;
-      <TextSymbolizer size="10" fill="#000033" fontset-name="book-fonts" halo-radius="1" wrap-width="20" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#000033" fontset-name="book-fonts" halo-radius="2" wrap-width="20" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[way_area] &gt;= 80000 and [way_area] &lt; 150000</Filter>
       &maxscale_zoom15;
-      <TextSymbolizer size="10" fill="#000033" fontset-name="book-fonts" halo-radius="1" wrap-width="20" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#000033" fontset-name="book-fonts" halo-radius="2" wrap-width="20" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[way_area] &gt;= 20000 and [way_area] &lt; 80000</Filter>
       &maxscale_zoom16;
-      <TextSymbolizer size="10" fill="#000033" fontset-name="book-fonts" halo-radius="1" wrap-width="20" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#000033" fontset-name="book-fonts" halo-radius="2" wrap-width="20" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[way_area] &lt; 20000</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="10" fill="#000033" fontset-name="book-fonts" halo-radius="1" wrap-width="20" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#000033" fontset-name="book-fonts" halo-radius="2" wrap-width="20" placement="interior">[name]</TextSymbolizer>
     </Rule>
 </Style>
 <Style name="highway-junctions">
     <Rule>
       &maxscale_zoom11;
       &minscale_zoom11;
-      <TextSymbolizer size="9" fill="#6666ff" minimum-distance="2" fontset-name="oblique-fonts" halo-radius="1" wrap-width="12">[ref]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#6666ff" minimum-distance="2" fontset-name="oblique-fonts" halo-radius="2" wrap-width="12">[ref]</TextSymbolizer>
     </Rule>
     <Rule>
       &maxscale_zoom12;
       &minscale_zoom14;
-      <TextSymbolizer size="9" fill="#6666ff" minimum-distance="2" fontset-name="oblique-fonts" halo-radius="1" wrap-width="12">[ref]</TextSymbolizer>
-      <TextSymbolizer size="8" fill="#6666ff" dy="-8" minimum-distance="2" fontset-name="oblique-fonts" halo-radius="1" wrap-width="2" wrap-character=";">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#6666ff" minimum-distance="2" fontset-name="oblique-fonts" halo-radius="2" wrap-width="12">[ref]</TextSymbolizer>
+      <TextSymbolizer size="8" fill="#6666ff" dy="-8" minimum-distance="2" fontset-name="oblique-fonts" halo-radius="2" wrap-width="2" wrap-character=";">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       &maxscale_zoom15;
-      <TextSymbolizer size="12" fill="#6666ff" minimum-distance="2" fontset-name="oblique-fonts" halo-radius="1" wrap-width="12">[ref]</TextSymbolizer>
-      <TextSymbolizer size="11" fill="#6666ff" dy="-10" minimum-distance="2" fontset-name="oblique-fonts" halo-radius="1" wrap-width="2" wrap-character=";">[name]</TextSymbolizer>
+      <TextSymbolizer size="12" fill="#6666ff" minimum-distance="2" fontset-name="oblique-fonts" halo-radius="2" wrap-width="12">[ref]</TextSymbolizer>
+      <TextSymbolizer size="11" fill="#6666ff" dy="-10" minimum-distance="2" fontset-name="oblique-fonts" halo-radius="2" wrap-width="2" wrap-character=";">[name]</TextSymbolizer>
     </Rule>
 </Style>
 <Style name="text">
@@ -252,52 +252,52 @@
       <Filter>[place] = 'island'</Filter>
       &maxscale_zoom12;
       &minscale_zoom18;
-      <TextSymbolizer size="9" fill="#000" dy="0" fontset-name="oblique-fonts" halo-radius="1" wrap-width="0" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#000" dy="0" fontset-name="oblique-fonts" halo-radius="2" wrap-width="0" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[amenity]='pub' or [amenity]='restaurant' or [amenity]='cafe' or [amenity]='fast_food' or [amenity]='biergarten'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="10" fill="#734a08" dy="9" fontset-name="bold-fonts" halo-radius="1" wrap-width="34" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#734a08" dy="9" fontset-name="bold-fonts" halo-radius="2" wrap-width="34" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[amenity]='bar'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="10" fill="#734a08" dy="11" fontset-name="bold-fonts" halo-radius="1" wrap-width="0" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#734a08" dy="11" fontset-name="bold-fonts" halo-radius="2" wrap-width="0" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[amenity]='library' or [amenity]='theatre' or [amenity]='courthouse'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="10" fill="#734a08" dy="12" fontset-name="bold-fonts" halo-radius="1" wrap-width="0" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#734a08" dy="12" fontset-name="bold-fonts" halo-radius="2" wrap-width="0" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[amenity]='cinema'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="10" fill="#734a08" dy="14" fontset-name="bold-fonts" halo-radius="1" wrap-width="0" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#734a08" dy="14" fontset-name="bold-fonts" halo-radius="2" wrap-width="0" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[amenity]='parking' and ([access] = 'public' or not [access] != '')</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="9" fill="#0066ff" dy="9" fontset-name="book-fonts" halo-radius="1" wrap-width="34" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#0066ff" dy="9" fontset-name="book-fonts" halo-radius="2" wrap-width="34" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[amenity]='parking' and ([access] != '' and not [access] = 'public')</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="9" fill="#66ccaf" dy="9" fontset-name="book-fonts" halo-radius="1" wrap-width="34" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#66ccaf" dy="9" fontset-name="book-fonts" halo-radius="2" wrap-width="34" placement="interior">[name]</TextSymbolizer>
     </Rule>
      <Rule>
       <Filter>[amenity] = 'police'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="10" fill="#734a08" dy="10" fontset-name="book-fonts" halo-radius="1" wrap-width="30" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#734a08" dy="10" fontset-name="book-fonts" halo-radius="2" wrap-width="30" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[amenity] = 'fire_station'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="10" fill="#734a08" dy="9" fontset-name="book-fonts" halo-radius="1" wrap-width="30" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#734a08" dy="9" fontset-name="book-fonts" halo-radius="2" wrap-width="30" placement="interior">[name]</TextSymbolizer>
     </Rule>
      <Rule>
       <Filter>[amenity] = 'place_of_worship'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="10" fill="#000033" dy="11" fontset-name="book-fonts" halo-radius="1" wrap-width="30" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#000033" dy="11" fontset-name="book-fonts" halo-radius="2" wrap-width="30" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[natural] = 'wood'</Filter>
@@ -307,47 +307,47 @@
     <Rule>
       <Filter>[natural] = 'peak'</Filter>
       &maxscale_zoom13;
-      <TextSymbolizer size="10" fill="brown" dy="5" fontset-name="book-fonts" halo-radius="1" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="brown" dy="5" fontset-name="book-fonts" halo-radius="2" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[natural] = 'peak' and not [name] != ''</Filter>
       &maxscale_zoom14;
-      <TextSymbolizer size="9" fill="brown" dy="6" fontset-name="oblique-fonts" halo-radius="1" placement="interior">[ele]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="brown" dy="6" fontset-name="oblique-fonts" halo-radius="2" placement="interior">[ele]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[natural] = 'peak' and [name] != ''</Filter>
       &maxscale_zoom14;
-      <TextSymbolizer size="9" fill="brown" dy="18" fontset-name="oblique-fonts" halo-radius="1" placement="interior">[ele]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="brown" dy="18" fontset-name="oblique-fonts" halo-radius="2" placement="interior">[ele]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[natural] = 'volcano'</Filter>
       &maxscale_zoom13;
-      <TextSymbolizer size="10" fill="brown" dy="5" fontset-name="book-fonts" halo-radius="1" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="brown" dy="5" fontset-name="book-fonts" halo-radius="2" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[natural] = 'volcano' and not [name] != ''</Filter>
       &maxscale_zoom14;
-      <TextSymbolizer size="9" fill="brown" dy="6" fontset-name="oblique-fonts" halo-radius="1" placement="interior">[ele]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="brown" dy="6" fontset-name="oblique-fonts" halo-radius="2" placement="interior">[ele]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[natural] = 'volcano' and [name] != ''</Filter>
       &maxscale_zoom14;
-      <TextSymbolizer size="9" fill="brown" dy="16" fontset-name="oblique-fonts" halo-radius="1" placement="interior">[ele]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="brown" dy="16" fontset-name="oblique-fonts" halo-radius="2" placement="interior">[ele]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[natural] = 'cave_entrance'</Filter>
       &maxscale_zoom15;
-      <TextSymbolizer size="10" fill="brown" dy="9" fontset-name="book-fonts" halo-radius="1" wrap-width="20" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="brown" dy="9" fontset-name="book-fonts" halo-radius="2" wrap-width="20" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[historic] = 'memorial' or [historic]='archaeological_site'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="9" fill="brown" dy="12" fontset-name="book-fonts" halo-radius="1" wrap-width="20" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="brown" dy="12" fontset-name="book-fonts" halo-radius="2" wrap-width="20" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[natural] = 'water' or [natural] = 'lake' or [landuse] = 'reservoir' or [landuse] = 'basin'</Filter>
       &maxscale_zoom15;
-      <TextSymbolizer size="10" fill="#6699cc" fontset-name="book-fonts" halo-radius="1" wrap-width="20" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#6699cc" fontset-name="book-fonts" halo-radius="2" wrap-width="20" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>([leisure] != '' or [landuse] != '') and [point] = 'yes'</Filter>
@@ -357,105 +357,105 @@
     <Rule>
       <Filter>[natural] = 'bay'</Filter>
       &maxscale_zoom14;
-      <TextSymbolizer size="10" fill="#6699cc" fontset-name="book-fonts" halo-radius="1" wrap-width="20" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#6699cc" fontset-name="book-fonts" halo-radius="2" wrap-width="20" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[natural] = 'spring'</Filter>
       &maxscale_zoom16;
-      <TextSymbolizer size="8" fill="#6699cc" dy="10" fontset-name="book-fonts" halo-radius="1" wrap-width="20" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="8" fill="#6699cc" dy="10" fontset-name="book-fonts" halo-radius="2" wrap-width="20" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[tourism] = 'alpine_hut'</Filter>
       &maxscale_zoom15;
-      <TextSymbolizer size="9" fill="#6699cc" dy="10" fontset-name="book-fonts" halo-radius="1" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#6699cc" dy="10" fontset-name="book-fonts" halo-radius="2" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[tourism] = 'alpine_hut'</Filter>
       &maxscale_zoom16;
-      <TextSymbolizer size="8" fill="#6699cc" dy="22" fontset-name="oblique-fonts" halo-radius="1" placement="interior">[ele]</TextSymbolizer>
+      <TextSymbolizer size="8" fill="#6699cc" dy="22" fontset-name="oblique-fonts" halo-radius="2" placement="interior">[ele]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[amenity]='shelter'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="9" fill="#6699cc" dy="10" fontset-name="book-fonts" halo-radius="1" placement="interior">[name]</TextSymbolizer>
-      <TextSymbolizer size="8" fill="#6699cc" dy="22" fontset-name="oblique-fonts" halo-radius="1" placement="interior">[ele]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#6699cc" dy="10" fontset-name="book-fonts" halo-radius="2" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="8" fill="#6699cc" dy="22" fontset-name="oblique-fonts" halo-radius="2" placement="interior">[ele]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[amenity] = 'bank'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="9" fill="black" dy="9" fontset-name="book-fonts" halo-radius="1" wrap-width="0" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="black" dy="9" fontset-name="book-fonts" halo-radius="2" wrap-width="0" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[tourism] = 'hotel' or [tourism]='hostel' or [tourism]='chalet'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="10" fill="#0066ff" dy="11" fontset-name="book-fonts" halo-radius="1" wrap-width="0" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#0066ff" dy="11" fontset-name="book-fonts" halo-radius="2" wrap-width="0" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[amenity] = 'embassy'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="9" fill="#0066ff" dy="8" fontset-name="book-fonts" halo-radius="1" wrap-width="0" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#0066ff" dy="8" fontset-name="book-fonts" halo-radius="2" wrap-width="0" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[tourism]='guest_house'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="8" fill="#0066ff" dy="9" fontset-name="book-fonts" halo-radius="1" wrap-width="0" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="8" fill="#0066ff" dy="9" fontset-name="book-fonts" halo-radius="2" wrap-width="0" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[tourism]='bed_and_breakfast'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="8" fill="#0066ff" dy="7" fontset-name="book-fonts" halo-radius="1" wrap-width="0" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="8" fill="#0066ff" dy="7" fontset-name="book-fonts" halo-radius="2" wrap-width="0" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[amenity] = 'fuel' or [amenity]='bus_station'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="9" fill="#0066ff" dy="9" fontset-name="book-fonts" halo-radius="1" wrap-width="0" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#0066ff" dy="9" fontset-name="book-fonts" halo-radius="2" wrap-width="0" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[tourism] = 'camp_site'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="10" fill="#0066ff" dy="15" fontset-name="book-fonts" halo-radius="1" wrap-width="70" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#0066ff" dy="15" fontset-name="book-fonts" halo-radius="2" wrap-width="70" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[tourism] = 'caravan_site'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="10" fill="#0066ff" dy="19" fontset-name="book-fonts" halo-radius="1" wrap-width="70" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#0066ff" dy="19" fontset-name="book-fonts" halo-radius="2" wrap-width="70" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[waterway] = 'lock'</Filter>
       &maxscale_zoom15;
-      <TextSymbolizer size="9" fill="#0066ff" dy="10" fontset-name="book-fonts" halo-radius="1" wrap-width="70" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#0066ff" dy="10" fontset-name="book-fonts" halo-radius="2" wrap-width="70" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[leisure] = 'marina'</Filter>
       &maxscale_zoom15;
       &minscale_zoom16;
-      <TextSymbolizer size="8" fill="blue" fontset-name="book-fonts" halo-radius="1" wrap-width="30" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="8" fill="blue" fontset-name="book-fonts" halo-radius="2" wrap-width="30" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[leisure] = 'marina'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="10" fill="blue" fontset-name="book-fonts" halo-radius="1" wrap-width="30" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="blue" fontset-name="book-fonts" halo-radius="2" wrap-width="30" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[tourism] = 'theme_park'</Filter>
       &maxscale_zoom14;
       &minscale_zoom15;
-      <TextSymbolizer size="8" fill="#734a08" fontset-name="book-fonts" halo-radius="1" wrap-width="30" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="8" fill="#734a08" fontset-name="book-fonts" halo-radius="2" wrap-width="30" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[tourism] = 'theme_park'</Filter>
       &maxscale_zoom16;
-      <TextSymbolizer size="10" fill="#734a08" fontset-name="book-fonts" halo-radius="1" wrap-width="30" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#734a08" fontset-name="book-fonts" halo-radius="2" wrap-width="30" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[tourism]='museum'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="10" fill="#734a08" dy="10" fontset-name="book-fonts" halo-radius="1" wrap-width="0" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#734a08" dy="10" fontset-name="book-fonts" halo-radius="2" wrap-width="0" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[amenity]='prison'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="10" fill="#734a08" dy="16" fontset-name="book-fonts" halo-radius="1" wrap-width="0" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#734a08" dy="16" fontset-name="book-fonts" halo-radius="2" wrap-width="0" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[tourism] = 'attraction'</Filter>
@@ -465,17 +465,17 @@
     <Rule>
       <Filter>[amenity] = 'university'</Filter>
       &maxscale_zoom15;
-      <TextSymbolizer size="9" fill="#000033" fontset-name="bold-fonts" halo-radius="1" wrap-width="16" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#000033" fontset-name="bold-fonts" halo-radius="2" wrap-width="16" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[amenity] = 'school' or [amenity] = 'college'</Filter>
       &maxscale_zoom15;
-      <TextSymbolizer size="9" fill="#000033" fontset-name="book-fonts" halo-radius="1" wrap-width="14" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#000033" fontset-name="book-fonts" halo-radius="2" wrap-width="14" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[amenity] = 'kindergarten'</Filter>
       &maxscale_zoom16;
-      <TextSymbolizer size="8" fill="#000033" fontset-name="book-fonts" halo-radius="1" wrap-width="14" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="8" fill="#000033" fontset-name="book-fonts" halo-radius="2" wrap-width="14" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[man_made] = 'lighthouse'</Filter>
@@ -485,7 +485,7 @@
     <Rule>
       <Filter>[man_made] = 'windmill'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="9" fill="#734a08" dy="12" fontset-name="book-fonts" halo-radius="1" wrap-width="20" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#734a08" dy="12" fontset-name="book-fonts" halo-radius="2" wrap-width="20" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[amenity] = 'hospital'</Filter>
@@ -495,27 +495,27 @@
     <Rule>
       <Filter>[amenity] = 'pharmacy'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="8" fill="#da0092" dy="9" fontset-name="book-fonts" halo-radius="1" wrap-width="12" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="8" fill="#da0092" dy="9" fontset-name="book-fonts" halo-radius="2" wrap-width="12" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[shop]='bakery' or [shop]='clothes' or [shop]='fashion' or [shop]='convenience' or [shop]='doityourself' or [shop]='hairdresser' or [shop]='butcher' or [shop]='car' or [shop]='car_repair' or [shop]='bicycle' or [shop]='florist'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="8" fill="#939" dy="9" fontset-name="book-fonts" halo-radius="1" wrap-width="12" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="8" fill="#939" dy="9" fontset-name="book-fonts" halo-radius="2" wrap-width="12" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[shop]='supermarket' or [shop]='department_store'</Filter>
       &maxscale_zoom16;
-      <TextSymbolizer size="9" fill="#939" dy="9" fontset-name="book-fonts" halo-radius="1" wrap-width="20" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#939" dy="9" fontset-name="book-fonts" halo-radius="2" wrap-width="20" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[military] = 'danger_area'</Filter>
       &maxscale_zoom12;
-      <TextSymbolizer size="9" fill="pink" fontset-name="bold-fonts" halo-radius="1" wrap-width="10" placement="interior">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="pink" fontset-name="bold-fonts" halo-radius="2" wrap-width="10" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[aeroway] = 'gate'</Filter>
       &maxscale_zoom17;
-      <TextSymbolizer size="10" fill="#aa66cc" fontset-name="book-fonts" halo-radius="1" wrap-width="10" placement="interior">[ref]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#aa66cc" fontset-name="book-fonts" halo-radius="2" wrap-width="10" placement="interior">[ref]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[name] != ''</Filter>
@@ -2156,14 +2156,14 @@
       &minscale_zoom16;
       <LineSymbolizer stroke-linejoin="round" stroke="#000" stroke-width="7"/>
       <LineSymbolizer stroke-linejoin="round" stroke="#b5d0d0" stroke-width="6" stroke-linecap="round"/>
-      <TextSymbolizer size="9" fill="#6699cc" placement="line" fontset-name="book-fonts" halo-radius="1">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#6699cc" placement="line" fontset-name="book-fonts" halo-radius="2">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       &maxscale_zoom17;
       &minscale_zoom18;
       <LineSymbolizer stroke-linejoin="round" stroke="#000" stroke-width="11"/>
       <LineSymbolizer stroke-linejoin="round" stroke="#b5d0d0" stroke-width="10" stroke-linecap="round"/>
-      <TextSymbolizer size="9" fill="#6699cc" placement="line" fontset-name="book-fonts" halo-radius="1">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#6699cc" placement="line" fontset-name="book-fonts" halo-radius="2">[name]</TextSymbolizer>
     </Rule>
 </Style>
 <Style name="bridges_casing">
@@ -3144,12 +3144,12 @@
     <Rule>
       <Filter>([highway] = 'unclassified' or [highway]='residential') and not [bridge]='yes'</Filter>
       &maxscale_zoom15;
-      <TextSymbolizer size="10" fill="#000" spacing="750" minimum-distance="18" fontset-name="bold-fonts" halo-radius="1">[ref]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#000" spacing="750" minimum-distance="18" fontset-name="bold-fonts" halo-radius="2">[ref]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>([aeroway] = 'runway' or [aeroway]='taxiway') and not [bridge]='yes'</Filter>
       &maxscale_zoom15;
-      <TextSymbolizer size="10" fill="#333" spacing="750" placement="line" minimum-distance="18" fontset-name="book-fonts" halo-radius="1">[ref]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="#333" spacing="750" placement="line" minimum-distance="18" fontset-name="book-fonts" halo-radius="2">[ref]</TextSymbolizer>
     </Rule>
 </Style>
 <Style name="roads-text-name">
@@ -3163,7 +3163,7 @@
       <Filter>[highway] = 'secondary'</Filter>
       &maxscale_zoom13;
       &minscale_zoom13;
-      <TextSymbolizer size="8" fill="black" placement="line" fontset-name="book-fonts" halo-radius="1" halo-fill="#fed7a5">[name]</TextSymbolizer>
+      <TextSymbolizer size="8" fill="black" placement="line" fontset-name="book-fonts" halo-radius="2" halo-fill="#fed7a5">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[highway] = 'trunk' or [highway] = 'primary'</Filter>
@@ -3181,66 +3181,66 @@
       <Filter>[highway] = 'secondary'</Filter>
       &maxscale_zoom14;
       &minscale_zoom14;
-      <TextSymbolizer size="9" fill="black" placement="line" fontset-name="book-fonts" halo-radius="1" halo-fill="#fed7a5">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="black" placement="line" fontset-name="book-fonts" halo-radius="2" halo-fill="#fed7a5">[name]</TextSymbolizer>
     </Rule><Rule>
       <Filter>[highway] = 'secondary'</Filter>
       &maxscale_zoom15;
       &minscale_zoom18;
-      <TextSymbolizer size="10" fill="black" placement="line" fontset-name="book-fonts" halo-radius="1" halo-fill="#fed7a5">[name]</TextSymbolizer>
+      <TextSymbolizer size="10" fill="black" placement="line" fontset-name="book-fonts" halo-radius="2" halo-fill="#fed7a5">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[highway] = 'tertiary'</Filter>
       &maxscale_zoom15;
       &minscale_zoom16;
-      <TextSymbolizer size="9" fill="#000" placement="line" fontset-name="book-fonts" halo-radius="1">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#000" placement="line" fontset-name="book-fonts" halo-radius="2">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[highway] = 'tertiary'</Filter>
       &maxscale_zoom17;
       &minscale_zoom18;
-      <TextSymbolizer size="11" fill="#000" placement="line" fontset-name="book-fonts" halo-radius="1">[name]</TextSymbolizer>
+      <TextSymbolizer size="11" fill="#000" placement="line" fontset-name="book-fonts" halo-radius="2">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       &maxscale_zoom13;
       &minscale_zoom15;
       <Filter>[highway] = 'proposed' or [highway]='construction'</Filter>
-      <TextSymbolizer size="9" fill="#000" placement="line" fontset-name="book-fonts" halo-radius="1">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#000" placement="line" fontset-name="book-fonts" halo-radius="2">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       &maxscale_zoom16;
       &minscale_zoom18;
       <Filter>[highway] = 'proposed' or [highway]='construction'</Filter>
-      <TextSymbolizer size="11" fill="#000" placement="line" fontset-name="book-fonts" halo-radius="1">[name]</TextSymbolizer>
+      <TextSymbolizer size="11" fill="#000" placement="line" fontset-name="book-fonts" halo-radius="2">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[highway] = 'unclassified' or [highway] = 'residential'</Filter>
       &maxscale_zoom15;
       &minscale_zoom15;
-      <TextSymbolizer size="8" fill="#000" spacing="300" placement="line" fontset-name="book-fonts" halo-radius="1">[name]</TextSymbolizer>
+      <TextSymbolizer size="8" fill="#000" spacing="300" placement="line" fontset-name="book-fonts" halo-radius="2">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[highway] = 'unclassified' or [highway] = 'residential'</Filter>
       &maxscale_zoom16;
       &minscale_zoom16;
-      <TextSymbolizer size="9" fill="#000" spacing="300" placement="line" fontset-name="book-fonts" halo-radius="1">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#000" spacing="300" placement="line" fontset-name="book-fonts" halo-radius="2">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[highway] = 'unclassified' or [highway] = 'residential'</Filter>
       &maxscale_zoom17;
       &minscale_zoom18;
-      <TextSymbolizer size="11" fill="#000" spacing="400" placement="line" fontset-name="book-fonts" halo-radius="1">[name]</TextSymbolizer>
+      <TextSymbolizer size="11" fill="#000" spacing="400" placement="line" fontset-name="book-fonts" halo-radius="2">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <ElseFilter/>
       &maxscale_zoom15;
       &minscale_zoom16;
-      <TextSymbolizer size="9" fill="#000" placement="line" fontset-name="book-fonts" halo-radius="1">[name]</TextSymbolizer>
+      <TextSymbolizer size="9" fill="#000" placement="line" fontset-name="book-fonts" halo-radius="2">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <ElseFilter/>
       &maxscale_zoom17;
       &minscale_zoom18;
-      <TextSymbolizer size="11" fill="#000" placement="line" fontset-name="book-fonts" halo-radius="1">[name]</TextSymbolizer>
+      <TextSymbolizer size="11" fill="#000" placement="line" fontset-name="book-fonts" halo-radius="2">[name]</TextSymbolizer>
     </Rule>
 </Style>
 <Style name="cliffs">
@@ -3330,12 +3330,12 @@
       <Filter>[way_area] &gt;= 200000000</Filter>
       &maxscale_zoom8;
       &minscale_zoom9;
-      <TextSymbolizer size="8" fill="#9c9" fontset-name="bold-fonts" halo-radius="1" wrap-width="14">[name]</TextSymbolizer>
+      <TextSymbolizer size="8" fill="#9c9" fontset-name="bold-fonts" halo-radius="2" wrap-width="14">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       &maxscale_zoom10;
       &minscale_zoom11;
-      <TextSymbolizer size="11" fill="#9c9" fontset-name="bold-fonts" halo-radius="1" wrap-width="14">[name]</TextSymbolizer>
+      <TextSymbolizer size="11" fill="#9c9" fontset-name="bold-fonts" halo-radius="2" wrap-width="14">[name]</TextSymbolizer>
     </Rule>
 </Style>
 <Style name="theme_park">
